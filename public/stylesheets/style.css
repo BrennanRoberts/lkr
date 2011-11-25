@@ -1,0 +1,209 @@
+/*
+Theme Name: LKR
+Theme URI: http://www.brennanroberts.com/
+Description: Theme made for LKR
+Version: 1
+Author: Brennan Roberts
+Author URI: http://www.brennanroberts.com/
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+body {
+  background: url(../images/bg.png) repeat;
+  font-family: "Adobe Caslon Pro", serif;
+  letter-spacing: 1px;
+  text-align: center; 
+}
+a, a:visited {
+  color: #4B4B4B;
+  text-decoration: none;
+  border-bottom: dashed #E1E1E1 1px;
+}
+a:hover {
+  color: #000000;
+  !background-color: #dddddd;
+  border-bottom: dashed #000000 1px;
+}
+p {
+	margin-bottom: 1em;
+}
+iframe {
+  border: 1px solid #CCC;
+}
+#notice {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background-color: #ffff99;
+  padding: 5px 0;
+  border-bottom: #FFFFFF 1px solid;
+}
+#wrap {
+  width: 821px;
+  margin: 100px auto;
+  background-color: #fffef8;
+  border: 2px solid #4b4b4b;
+  text-align: left;
+  overflow: hidden;
+}
+#header {
+  position: relative;
+  font-family: "Gill Sans","Gill Sans MT", sans-serif;
+  font-size: 10pt;
+  letter-spacing: 2px;
+  height: 78px;
+  background: url(../images/border_dot.png) repeat-x bottom;
+  color: #c20000;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  margin: 28px 28px 18px 28px;
+}
+#banner {
+  font-family: "Baskerville", serif;
+  font-size: 40pt;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+#nav {
+  position: absolute;
+  right: 0;
+  bottom: 17px;
+}
+#nav li {
+  float: left;
+  padding: 0 0 0 1em;
+}
+#nav a {
+  text-decoration: none;
+  color: #000;
+  border-bottom: none;
+}
+#nav li.active a {
+	color: #c20000;
+  border-bottom: none;
+  background-color: transparent;
+  cursor: default;
+}
+#nav li.inactive a, #header #nav ul li.inactive a:visited {
+  color: #c20000;
+  border-bottom: none;
+}
+#nav li.active a:hover{
+	border-bottom: none;
+}
+#nav li a:hover {
+  border-bottom: dashed #000 1px;
+}
+#frame-window {
+	overflow: hidden;
+  width: 570px;
+  float: left;
+  position: relative;
+  margin-left: 18px;
+  height: 250px;
+ 	margin-bottom: 28px;
+}
+#frameFadeLeft, #frameFadeRight {
+	height:100%;
+	position:absolute;
+	top:0;
+	width:10px;
+}	
+#frameFadeLeft {
+	background:transparent url(../images/scroller-fade.png) repeat-y scroll right top;
+	left:0;
+}
+#frameFadeRight {
+	background:transparent url(../images/scroller-fade.png) repeat-y scroll left top;
+	right:0;
+}
+#paneCont {
+	position: absolute;
+	margin-left: 10px;
+	top: 0px;
+  width: 10000em;
+}
+.pane {
+  width: 550px;
+  float: left;
+  margin-right: 20px;
+  overflow: hidden;
+  line-height: 150%;
+  text-align: left;
+  
+}
+#location-pane {
+	text-align: center;
+}
+#sidebar {
+  font-family:  "Gill Sans", "Gill Sans MT", sans-serif;
+  !font-variant: small-caps;
+  text-transform: lowercase;
+  font-size: 8pt;
+  letter-spacing: 2px;
+  float: right;
+  color: #4b4b4b;
+  width: 160px;
+  margin-right: 28px;
+  padding: 0px 0px 10px 25px;
+  border-left: #e1e1e1 solid 1px;
+  line-height: 1.4;
+}
+#sidebar p {
+	margin-bottom: 10px;
+}
+#footer {
+  text-align: center;
+  padding-top: 15px;
+  font-family: "Gill Sans", sans-serif;
+  color: #4b4b4b;
+  font-size: 12px;
+  text-transform: lowercase;
+  !text-transform: uppercase;
+}
